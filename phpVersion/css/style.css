@@ -56,7 +56,7 @@ a:hover{
 **************************************************************/
 body{}
 header{
-    background-color: #fff;
+    
 }
 .contentWrap{
     color: #000;
@@ -67,38 +67,48 @@ footer{
     color: #fff;
     background-color: #03380F;
 }
-nav{
+.navbar.navbar-default{
 
 }
-nav ul{
+.container-fluid{
+    background-color: #fff;
+}
+.nacbar-header{
+
+}
+.navbar-header.brand{
+
+}
+
+.nav.navbar-nav{
     padding: 0;
     list-style: none;
 }
-nav li{
+.nav.navbar-nav li{
     display: inline-block;
     padding: 4px 8px 4px 8px;
     transition: .2s all ease;
 }
-nav li:hover{
+.nav.navbar-nav li:hover{
     background-color: #6BA779;
     transition: .2s all ease;
     cursor: pointer;
 }
-nav li a{
+.nav.navbar-nav li a{
     font-weight: bold;
     color: #03380F;
     transition: .2s all ease;
 }
-nav li a:hover{
+.nav.navbar-nav li a:hover{
     color: #03380F;
     font-weight: bold;
     text-decoration: none;
     transition: .2s all ease;
 }
-nav li i{
+.nav.navbar-nav li i{
     padding-right: 10px;
 }
-nav ul span{
+.nav.navbar-nav ul span{
     color: #fff;
 
 }

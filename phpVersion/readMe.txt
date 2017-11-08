@@ -39,3 +39,20 @@ Hilfreiche snippets
 	$float1 = 0.25;
 	$float2 = 8.0;
 ------------------------------------------------------
+
+// Dateien einbinden
+	<?php include("echo.php"); ?>
+-> wenn diese nicht vorhanden ist,
+wird einfach der entsprechende Teil nicht ausgegeben
+----------------------------------------------------
+
+// Dateien als Voraussetzung einbinden
+	<?php require("blabla.php"); ?>
+-> wenn diese nicht vorhanden ist,
+wird auch bei allem was danach kommt einen Fehlermeldung ausgegeben
+--------------------------------------------------
+
+// keine Fehlermeldung anzeigen
+	<?php @include("echo.php"); ?>
+-> durch das @ werden keine Fehlermeldungen ausgegeben
+-------------------------------------------------------
