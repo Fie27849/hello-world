@@ -1,0 +1,116 @@
+
+
+/*************************************************************
+            imports
+**************************************************************/
+/* Schriften einbinden */
+@import url('https://fonts.googleapis.com/css?family=Caudex|IM+Fell+English+SC|Open+Sans+Condensed:300');
+
+/* FontAwesome einbinden */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Bootstrap einbinden */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+
+/*************************************************************
+            master style
+**************************************************************/
+html{
+    color: #000;
+    font-size: 100%;
+    font-family: 'Caudex';
+}
+h1, h2, h3, h4, h5, h6{ font-family: 'IM Fell English SC'; color: #333;}
+h1{ font-size: 2rem; font-weight: bold;}
+h2{ font-size: 1.75rem; font-weight: lighter;}
+h3{ font-size: 1.6rem; font-weight: bold;}
+h4{ font-size: 1.4rem; font-weight: lighter;}
+h5{ font-size: 1.25rem; font-weight: bold;}
+h6{ font-size: 1rem; font-weight: lighter;}
+
+a{
+     font-family: 'Open Sans Condensed';
+     font-size: 1.125rem;
+     text-decoration: none;
+     color: #333;
+     transition: .2s all ease;
+}
+a:hover{
+    font-weight: bold;
+    color: #555;
+    transition: .2s all ease;
+}
+
+/*************************************************************
+            Hilfsklassen
+**************************************************************/
+
+.bold{font-weight: 900;}
+
+.clearfix{ clear: both; }
+
+
+/*************************************************************
+        element-bezogene styles
+**************************************************************/
+body{}
+header{
+    background-color: #fff;
+}
+.contentWrap{
+    color: #000;
+    background-color: #fff;
+    padding: 0 0 50px 0;
+}
+footer{
+    color: #fff;
+    background-color: #03380F;
+}
+nav{
+
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 4px 8px 4px 8px;
+    transition: .2s all ease;
+}
+nav li:hover{
+    background-color: #6BA779;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+nav li a{
+    font-weight: bold;
+    color: #03380F;
+    transition: .2s all ease;
+}
+nav li a:hover{
+    color: #03380F;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .2s all ease;
+}
+nav li i{
+    padding-right: 10px;
+}
+nav ul span{
+    color: #fff;
+
+}
+img{}
+a{}
+a:hover{}
+/*************************************************************
+        klassenbezogene style
+**************************************************************/
+.phpFunktionen{
+    background-color: 
+}
+/*************************************************************
+        ID-bezogene styles
+**************************************************************/
