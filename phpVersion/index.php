@@ -21,6 +21,15 @@
 				<h1>Kontrollstrukturen</h1>
 				<?php include("/inc/kontrollstrukturen.php") ?>
 			</div>
+			<div class="funktionen">
+				<h1>Funktionen</h1>
+				<?php //include("/inc/interneFunktionen.php") ?>
+				<?php include("/inc/individuelleFunktionen.php") ?>
+			</div>
+			<div class="klassen">
+				<h1>Klassen</h1>
+				<?php include("/class/AutoController.php") ?>
+			</div>
 		</div>		
 	</main>
 <?php include("footer.php"); ?>

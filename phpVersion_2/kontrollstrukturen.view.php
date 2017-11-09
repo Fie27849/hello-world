@@ -1,10 +1,8 @@
+<?php include("header.php"); ?>
+<?php include("/controller/KontrollstrukturenController.php"); ?>
+<?php
 
 
-<?php 
-	
-	// if regeln
-	$d = 11;
-	$e = 8;
 	echo "<h4>IF Regel</h4>";
 	if($c > $d){
 		echo "<br>$c ist grösser als $d.";
@@ -19,8 +17,6 @@
 	// 13 - 18 -> Nachmittag
 	// 19 - 00 -> Abend
 	// 1 - 5 -> Nacht
-	$tageszeit = 2;
-
 	if($tageszeit >= 6 && $tageszeit <= 12){
 		echo "Es ist Vormittag";
 	}
@@ -41,8 +37,6 @@
 
 
 
-
-	// While Schleife mit raufzählen
 	echo "<h4>While schleife</h4>";
 
 
@@ -61,46 +55,18 @@
 	$count = 0;
 
 
-	// ForEach Schleife
+
+
 	echo "<h4>ForEach schleife</h4>";
-	$zahlen = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
+	
 	foreach ($zahlen as $zahl) {
 		echo "$zahl, ";
 	}
-
-	// nur Primzahlen ausgeben
-	// echo "<h4>ForEach schleife: nur Primzahlen</h4>";
-	// foreach ($zahlen as $zahl) {
-	// 	if($zahl%2 !== 0){
-	// 		//echo "<br>$zahl ist vieleicht Primzahl.";
-
-	// 			for($count = 1; $count <= $zahl; $count++){
-	// 				if($zahl%$count !== 0){
-	// 					if($count == $zahl){
-	// 						echo "<br>$zahl ist eine Primzahl.";
-	// 						echo "<br>COUNT: $count<br>ZAHL: $zahl<br>";
-	// 					}						
-	// 				}
-	// 				else{
-	// 					echo "<br>$zahl ist keine Primzahl.";
-	// 					echo "<br>COUNT: $count<br>ZAHL: $zahl<br>";
-	// 					break;
-	// 				}
-	// 			}
-	// 	}
-	// 	else{
-	// 		//echo "<br>$zahl ist eine gerade Zahl.";
-	// 	}
-
-	// }
-	// $count = 0;
 
 
 
 	// auf Inhalt prüfen
 	echo "<h4>Eingabe auf Inhalt prüfen</h4>";
-	$check = "Janis";
-	$letter = "A";
 	echo "Enthält $check $letter?";
 	if(strstr($check, $letter)){
 		echo "<br>Es hat ein $letter.";
@@ -116,10 +82,6 @@
 
 
 
+ ?>
 
-
-
-
-
-
-?>
+ <?php include("footer.php"); ?>

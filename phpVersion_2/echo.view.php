@@ -1,22 +1,9 @@
+<?php include("header.php"); ?>
+<?php include("/controller/EchoController.php"); ?>
 <?php 
 
-	$vor_name = "<b>Stephanie";
- 	$nach_name = "Kessler</b>";
- 	$alter = "24 Jahre";
- 	$wohnort = "<i>Grub AR</i>";
- 	
- 	$vor_name2 = "Stephanie";
- 	$nach_name2 = "Kessler";
- 	$wohnort2 = "Grub AR";
 
- ?>
-
-
-<?php 
-
- 	
-
- 	//Ausgabe
+//Ausgabe
  	echo 'Ausgabe 1: Hallo, mein Name ist ' . $vor_name . ' ' . $nach_name . '.' . ' Ich bin ' . '<sup>' . $alter . '</sup>' . ' alt und wohne in ' . $wohnort . '.' . '<br>';
 
  	
@@ -45,13 +32,21 @@
 	 	//Ausgabe (Vereinfachte Ausgabe)
 	 	echo "Ausgabe 3: Hallo, mein Name ist $vor_name $nach_name Ich bin. <sup>$alter</sup> alt und wohne in $wohnort.<br>";
 
+
+
+
+	echo '<b>Floats:</b>' . '<br>' . $float1 . '<br>' . $float2;
+
+
+	echo "<br><br>Datum: $datum<br>a: $a<br>b: $b<br> c: $c";
+	$c = $a + $b;
+	echo "<br>c = a + b = $c";
+
+
+
+
+
+
  ?>
-<br>
-<?php 
 
-  	$float1 = 0.25;
-  	$float2 = 8.0;
-
-  	echo '<b>Floats:</b>' . '<br>' . $float1 . '<br>' . $float2;
-
- ?>
+ <?php include("footer.php"); ?>

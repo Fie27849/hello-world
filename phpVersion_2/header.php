@@ -1,13 +1,3 @@
-
-
-<?php
-	include("/inc/vars.php"); 
-
-	$link_to_tome = "index.php";
-	$link_to_spamView = "spam.view.php";
-	$ueberschrift_eins = "Meine Überschrift";
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +15,13 @@
 			    </div>
 			    <ul class="nav navbar-nav">
 				    <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+				    <li><a href="echo.view.php"></i>Echo View</a></li>
+				    <li><a href="array.view.php"></i>Array View</a></li>
+				    <li><a href="funktionen.view.php"></i>Funktionen View</a></li>
+				    <li><a href="kontrollstrukturen.view.php"></i>Kontrollstrukturen View</a></li>
+				    <li><a href="auto.view.php"></i>Auto View</a></li>
 				    <li><a href="spam.view.php"></i>Spam View</a></li>
+				    <li><a href="beer.view.php"></i>Beer View</a></li>
 			    </ul>
 			</div>
 		</nav>
