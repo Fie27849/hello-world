@@ -1,5 +1,6 @@
-<?php include("header.php"); ?>
+
 <?php include("/controller/EchoController.php"); ?>
+<?php include("header.php"); ?>
 <?php 
 
 

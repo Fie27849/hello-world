@@ -1,6 +1,6 @@
 <?php 
 
-
+	// zusammengesetzte Ausgaben
 	$vor_name = "<b>Stephanie</b>";
  	$nach_name = "<b>Kessler</b>";
  	$alter = "24 Jahre";
@@ -15,32 +15,14 @@
 	$alter3 = 12;
 	$wohnort3 = "Trogen AR";
 
-
-
-
+	// rechnen & ausgeben
 	$a = 3;
 	$b = 15;
 	$c = 0;
 	$d = 11;
 	$e = 8;
 
-
-
+	// Kontrollvariabeln
 	$count = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  ?>
