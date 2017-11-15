@@ -54,7 +54,7 @@
 				<div class="field-group abendprogramm">
 					<label for="checkbox-abendprogramm"><i class="fa fa-moon-o" aria-hidden="true"></i>  Bitte treffen Sie eine Wahl:</label>
 					<select name="abendprogramm-options">
-				        <option value="">Kein Abendprogramm</option>
+				        <option value="Kein Abendprogramm">Kein Abendprogramm</option>
 				        <option value="Billardturnier">Billardturnier</option>
 				        <option value="Bowlingturnier">Bowlingturnier</option>
 				        <option value="Weindegustation">Weindegustation</option>

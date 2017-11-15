@@ -166,6 +166,14 @@ form fieldset label{
 .phpFunktionen{
     background-color: 
 }
+
+.taskTable{width: 100%;}
+.taskTable tbody{width: 100%; border: 2px solid black;}
+.taskTable tbody tr{width: 100%; border-bottom: 1px solid black;}
+.taskTable tbody tr th{width: 20%; border-bottom: 2px solid black;}
+.taskTable tbody tr td{width: 20%;}
+
+
 /*************************************************************
         ID-bezogene styles
 **************************************************************/

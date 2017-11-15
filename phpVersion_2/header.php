@@ -24,6 +24,7 @@
 				    <li><a href="beer.view.php"><i class="fa fa-beer" aria-hidden="true"></i>Beer View</a></li>
 				    <li><a href="form.view.php"><i class="fa fa-inbox" aria-hidden="true"></i>Eingabe Formular</a></li>
 				    <li><a href="eventForm.view.php"><i class="fa fa-inbox" aria-hidden="true"></i>Event Formular</a></li>
+				    <li><a href="task.view.php"><i class="fa fa-check-square-o" aria-hidden="true"></i> Tasks</a></li>
 			    </ul>
 			</div>
 		</nav>
