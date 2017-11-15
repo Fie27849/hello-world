@@ -91,30 +91,36 @@
 				echo utf8_encode($taskStatus);
 			echo '</td>';
 			echo '<td>';
-				echo '<form action="task.view.php" method="POST">
-						<fieldset>
-							<div class="field-group">
-								<button id="edit" name="edit">bearbeiten</button>
-							</div>
-						</fieldset>
-					</form>';
-			echo '</td>';
-			echo '<td>';
-				echo '<form action="task.view.php" method="POST">
-						<fieldset>
-							<div class="field-group">
-								<button id="delete" name="delete">löschen</button>
-							</div>
-						</fieldset>
-					</form>';
+			?><form action="task.view.php" method="POST">
+				<fieldset>
+					<div class="field-group">
+						<button id="edit" name="edit">bearbeiten</button>
+					</div>
+				</fieldset>
+				</form>
+		<?php	echo '</td>';
+				echo '<td>'; ?>
+					<form action="task.view.php" method="POST">
+						<input type="hidden" name=itemid value="<?php echo $taskID; ?>">
+						<button type="submit" id="btndelete" name="btndelete" value="btndelete">löschen</button>
+					</form>
+				<?php 
 			echo '</td>'; 
 		echo '</tr>';
 	}		
 	echo '</table>';
 
 
+	// bearbeiten von Datensatz nach klicken von edit
 	if(isset($_POST['edit'])){
 
+	}
+
+	// löschen von Datensatz durch klicken auf delete
+	
+	if(isset($_POST['btndelete'])){
+		$id = $_POST['itemid'];
+		$task->sqlExec("DELETE FROM 'tasks' WHERE id = $id");
 	}
 
 
@@ -153,7 +159,7 @@
 	
 	// delet
 	//echo 'delete from tasks<br>';
-	//$task->sqlExec("DELETE FROM tasks WHERE title LIKE 'Einkaufen'");
+	//$task->sqlExec("DELETE FROM tasks WHERE id LIKE 6");
 
 	//echo '<br><br>';
 
